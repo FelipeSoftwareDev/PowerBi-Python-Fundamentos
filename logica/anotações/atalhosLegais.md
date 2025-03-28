@@ -1,0 +1,3 @@
+No VsCode temos diversos atalhos e extensões que simplificam a escrita do código, além destes há extensões necessárias para rodar algumas linguagens, extensões para estilizar e personalizar sua experiência, etc. 
+
+Para mudar um trecho do código de linha, selecionaremos o trecho e vamos segurar Alt depois usar a setinha para cima ou para baixo para ir pulando linhas para cima ou para baixo, sem apagar o que tem em volta. Continue pressionando o alt e clique na seta quantas vezes precisar para chegar aonde quer, isso nos ajuda a manter um código limpo e bem indentado.
