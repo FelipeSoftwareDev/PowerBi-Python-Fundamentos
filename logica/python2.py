@@ -2,9 +2,11 @@
 
 # Se queremos controlar quando uma linha de código será executada ou não, usamos o if, por exemplo
 
-idade, nome = (25, "Felipe")
+idade, nome = (13, "Felipe")
 
-def verificar(idade):
+# variáveis e funções com mais de um nome devem ser declaradas com "_", conhecido como snake case
+
+def verificar_idade(idade):
     maioridade = False
     if idade > 18:
         maioridade = True
@@ -15,5 +17,5 @@ def resposta(nome, idade, maioridade):
         print(f'Parabéns {nome} você já pode ser preso!')
 
     else: 
-        print(f'E aí {nome} essa escola termina quando?')
+        print(f'Nossa {nome} só faltam {18 - idade} anos pra você virar um adulto!')
         return

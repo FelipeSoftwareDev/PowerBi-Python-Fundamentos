@@ -69,3 +69,8 @@ print(e, f, e + f)
 idade, nome = (25, 'Felipe')
 
 print(f'Me chamo {nome} e tenho {idade} anos!')
+
+# Detalhe MUITO IMPORTANTE!!! NÃO HÁ constantes em Python, usamos de convenção para avisar que uma variável não pode ser mechida
+# ,tal qual uma constante, o nome todo em maiúsculo. Isso avisará aos outros programadores que não devem alterar o valor da mesma, exemplo:
+
+CONSTANTE = True
